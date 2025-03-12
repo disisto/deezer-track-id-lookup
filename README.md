@@ -43,16 +43,16 @@ Sharing the Webhook link into a web page or app that support the Open Graph prot
 Examples
 
 Slack:<br>
-<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opengraph/slack.png" style="width: 50%; height: 50%">
+<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opengraph/slack.jpg" style="width: 50%; height: 50%">
 
 Discord:<br>
-<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opengraph/discord.png" style="width: 50%; height: 50%">
+<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opengraph/discord.jpg" style="width: 50%; height: 50%">
 
 WhatsApp:<br>
-<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opengraph/whatsapp.png" style="width: 50%; height: 50%">
+<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opengraph/whatsapp.jpg" style="width: 25%; height: 25%">
 
 Twitter:<br>
-<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opengraph/twitter.png" style="width: 50%; height: 50%">
+<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opengraph/twitter.jpg" style="width: 50%; height: 50%">
 
 
 ## 4.) OpenSearch
@@ -61,21 +61,21 @@ The browser integration of troubleshooting.tools allows to use the browser addre
 
 This function is called OpenSearch and works with Apple Safari, Microsoft Edge, Mozilla Firefox and Google Chrome. Before we can start using it, we have to setup our browser for this function. Here an example for Google Chrome:
 
-At the top right, click More <img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opensearch/0_menu.jpg"> and then **Settings**.
+At the top right, click More <img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opensearch/0_menu.jpg" style="width: 3%; height: 3%"> and then **Settings**.
 
-<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opensearch/1_google_chrome_settings.jpg">
+<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opensearch/1_google_chrome_settings.jpg" style="width: 25%; height: 25%">
 
 Under "Search engine," click **Manage search engines**.
 
-<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opensearch/2_manage_search_settings.jpg">
+<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opensearch/2_manage_search_settings.jpg" style="width: 75%; height: 75%">
 
 To the right of "Other search engines," click **Add**.
 
-<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opensearch/3_search_engine_settings.jpg">
+<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opensearch/3_search_engine_settings.jpg" style="width: 75%; height: 75%">
 
 Fill out the text fields as shown below and click **Add**.
 
-<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opensearch/4_edit_search_engine.jpg" align="right">
+<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opensearch/4_edit_search_engine.jpg" align="right" style="width: 50%; height: 50%">
 
 **Search engine:**<br>
 `Enter troubleshooting.tools or a name of your choice.`
@@ -90,25 +90,25 @@ Fill out the text fields as shown below and click **Add**.
 
 The setup is complete. You are still able to continue to enter a URL in the address bar or any search terms that trigger a Google search.
 
-<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opensearch/5_google_search_bar.jpg">
+<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opensearch/5_google_search_bar.jpg" style="width: 50%; height: 50%">
 
 The new feature is, if you enter an "t" followed by a space, then you activate the troubleshooting.tools search.
 
-<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opensearch/6_troubleshooting.tools_search_bar_a.jpg">
+<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opensearch/6_troubleshooting.tools_search_bar_a.jpg" style="width: 50%; height: 50%">
 
-<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opensearch/7_troubleshooting.tools_search_bar_b.jpg">
+<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opensearch/7_troubleshooting.tools_search_bar_b.jpg" style="width: 50%; height: 50%">
 
 This cause that Google Chrome address bar react like the search field on this website.
 
-<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opensearch/8_troubleshooting.tools_search_bar_c.jpg">
+<img src="https://github.com/disisto/deezer-track-id-lookup/blob/main/img/opensearch/8_troubleshooting.tools_search_bar_c.jpg" style="width: 50%; height: 50%">
 
 ## 5.) HTML search form
 
 To integrate the search bar into a different web page a few line are needed. The look and feel can be adjusted as desired.
 
 ```html
-<form method="post" action="https://troubleshooting.tools/lookup/deezer/track/">
-  <input type="text" name="TRACKID" placeholder="">
+<form method="get" action="https://troubleshooting.tools/lookup/deezer/track/">
+  <input type="text" name="ttrackid" placeholder="">
   <input type="submit" value="&#128269;">
 </form>
 ```
