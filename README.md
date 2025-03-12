@@ -34,7 +34,7 @@ Look up a Deezer Track ID
 Beside the classic form input on the web page, the web page supports also webhooks. This possibility is ideal to share a link and guide the recipient directly to the results.
 
 **URL:** **`https://troubleshooting.tools/lookup/deezer/track/`** `{deezer_track_id}` <br><br>
-Example: `https://troubleshooting.tools/lookup/deezer/track/7989148`
+Example: `https://troubleshooting.tools/lookup/deezer/track/131231868`
 
 ## 3.) Open Graph
 
@@ -108,7 +108,7 @@ To integrate the search bar into a different web page a few line are needed. The
 
 ```html
 <form method="get" action="https://troubleshooting.tools/lookup/deezer/track/">
-  <input type="text" name="ttrackid" placeholder="">
+  <input type="text" name="trackid" placeholder="">
   <input type="submit" value="&#128269;">
 </form>
 ```
